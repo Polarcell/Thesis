@@ -90,6 +90,16 @@
 % lines for the signatures are made with the \signature command.
 \maketitle
 
+%Dedication page
+\clearpage
+\vspace*{\fill}
+\begin{center}
+\begin{minipage}{.6\textwidth}
+This will be dedicated to someone, but for now and for luck, Richard Feynman
+\end{minipage}
+\end{center}
+\vfill % equivalent to \vspace{\fill}
+\clearpage
 % The abstractpage environment sets up everything on the page except
 % the text itself.  The title and other header material are put at the
 % top of the page, and the supervisors are listed at the bottom.  A
@@ -101,9 +111,11 @@
 %% You can either \input (*not* \include) your abstract file, or you can put
 %% the text of the abstract directly between the \begin{abstractpage} and
 %% \end{abstractpage} commands.
-
+\section*{Biographical Sketch}
+U of C in 2008, graduated with physics B.A. in 2012, worked on T2K
+U of R in 2012, MA in 2013, worked on T2K for two years, have done various projects for MINERvA
 % First copy: start a new page, and save the page number.
-\cleardoublepage
+\clearpage
 % Uncomment the next line if you do NOT want a page number on your
 % abstract and acknowledgments pages.
 % \pagestyle{empty}
@@ -121,7 +133,7 @@
 % \input{abstract}
 % \end{abstractpage}
 
-\cleardoublepage
+\clearpage
 
 \section*{Acknowledgments}
 
